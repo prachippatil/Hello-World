@@ -4,7 +4,7 @@ orbs:
 jobs:
   build:
     executor:
-      name: node/default:
+      name: node/default
       tags: '10.4
 steps:
  -checkout
